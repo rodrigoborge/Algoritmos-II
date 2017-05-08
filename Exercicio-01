@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+main ()
+{
+	setlocale (LC_ALL, "Portuguese");
+float valor1, resultado;
+printf ("Digite o valor da compra: ");
+scanf ("%f", &valor1);
+{
+
+if (valor1 <= 500)
+	resultado = valor1 / 5;
+else
+	resultado = valor1 / 8;
+}
+printf ("\nO valor das parcelas é de: R$ %.2f \n" , resultado);
+}
