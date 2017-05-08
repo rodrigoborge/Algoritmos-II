@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+main ()
+{
+	setlocale (LC_ALL, "Portuguese");
+float valor, salario;
+printf ("Digite o valor do salario: ");
+scanf ("%f", &valor);
+{
+
+if (valor <= 500)
+	salario = valor - valor * 8 / 100;
+else
+	salario = valor - valor * 9 / 100;
+}
+printf ("\nO valor do salário líquido é de: R$ %.2f \n" , salario);
+}
