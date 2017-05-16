@@ -1,0 +1,50 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+#include <conio.h>
+
+int main ()
+{
+		setlocale (LC_ALL, "PORTUGUESE");
+
+float compra, total;
+int opcao;
+char decisao = 's';
+
+compra = 0;
+
+while ( decisao == 's')
+{
+
+printf ("**ESCOLHA UMA OPÇÃO:** \n\n 1 - Salgado. \n\n 2 - Lanche. \n\n 3 - Refrigerante \n\n 4 - Chocolate \n\n Digite uma opção: ");
+scanf ("%d", &opcao);
+system ("cls"); //Limpa a tela
+
+switch (opcao)
+{
+	case 1:
+		compra = compra + 4.50;
+	break;
+	
+	case 2:
+		compra = compra + 6.00;
+	break;	
+	
+	case 3:
+		compra = compra + 3.50;
+	break;
+	
+	case 4:
+		compra = compra + 3.00;
+	break;
+	
+	default: 
+	("Opção inválida");
+	
+}
+	printf ("Deseja continuar comprando? [s/n]: ");
+	scanf ("%s", &decisao);
+	system ("cls"); //Limpa a tela
+}
+printf ("O total da compra é %.2f", compra);
+}
