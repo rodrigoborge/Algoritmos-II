@@ -1,0 +1,56 @@
+#include <locale.h>
+#include <stdlib.h>
+#include <stdio.h>
+#define N 20
+struct peca
+{
+	char nomepeca [100];
+	float valor;
+};
+
+int main ()
+{
+		 setlocale (LC_ALL, "PORTUGUESE");
+	struct peca n [N];
+	int i, j = 0;
+	float total, valor;
+	char decisao;
+	
+	printf ("##### LISTA DE PREÇO DE HARDWARE #####\n");
+	
+	for (i =0; i < N; i++)
+	{
+		
+		if (decisao != 'N')
+		{
+		   j = j + 1;
+		   printf ("\nDigite o nome da peça: ");
+		   gets (n[i].nomepeca);
+		   fflush (stdin);
+		
+		   printf ("Digite o valor da peça: ");
+		   scanf ("%f", &n[i].valor);
+		   fflush (stdin);
+		
+		   printf ("\nDeseja cadastrar uma nova peça? S/N: ");
+		   scanf ("%s", &decisao);
+		   fflush (stdin);
+		
+		   total = total + n[i].valor;
+		   system ("cls");
+	    }
+
+	 	else
+		{
+			printf ("");
+		}
+	
+	}
+	for (i =0; i < j; i++)
+	{
+	printf ("\nA peça %s custou R$: %.2f", n[i].nomepeca, n[i].valor);
+	}
+printf ("\n\n### O TOTAL DOS VALORES ###\n");	
+printf ("\nA soma dos valores das peças é: R$: %.2f", total);
+
+}
