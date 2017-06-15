@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <locale.h>
+
+
+int conta (int num1, int num2, int num3, int *quad1, int *quad2, int *quad3, int *result)
+{
+  *quad1 = pow (num1,2);
+  *quad2 = pow (num2,2);
+  *quad3 = pow (num3,2);
+    
+  *result = pow (num1,2) + pow (num2,2) + pow (num3,2);
+}
+
+int main ()
+{
+		setlocale (LC_ALL, "PORTUGUESE");
+
+int quad1, quad2, quad3, result;
+int num1, num2, num3;
+
+printf ("Digite o valor do 1° número: ");
+scanf ("%d", &num1);
+
+printf ("\nDigite o valor do 2° número: ");
+scanf ("%d", &num2);
+
+printf ("\nDigite o valor do 3° número: ");
+scanf ("%d", &num3);
+printf ("\n\n");
+
+conta (num1, num2, num3, &quad1, &quad2, &quad3, &result);
+
+
+printf ("\n ***** RESULTADO *****\n");
+printf ("\nO valor de %d² é: %d", num1, quad1);
+printf ("\nO valor de %d² é: %d", num2, quad2);
+printf ("\nO valor de %d² é: %d", num3, quad3);
+printf ("\nO resultado da soma de %d² + %d² + %d² é de: %d", num1, num2, num3, result);
+printf ("\n\n\n\n");
+system ("PAUSE");
+return 0;
+}
