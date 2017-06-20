@@ -1,0 +1,118 @@
+#include <windows.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+system("color 70");
+
+
+	keybd_event(VK_MENU  , 0x36, 0, 0);
+	keybd_event(VK_RETURN, 0x1C, 0, 0);
+	keybd_event(VK_RETURN, 0x1C, KEYEVENTF_KEYUP, 0);
+	keybd_event(VK_MENU  , 0x38, KEYEVENTF_KEYUP, 0);
+	
+printf ("\n\n\n\n");	
+
+Sleep(100); printf ("\n							 .d8888b.   .d88888b.  8888888b.  8888888b.  8888888 ");
+Sleep(101); printf ("\n							d88P  Y88b d88P* *Y88b 888   Y88b 888   Y88b   888   ");
+Sleep(102); printf ("\n							Y88b.      888     888 888    888 888    888   888   ");
+Sleep(103); printf ("\n							 *Y888b.   888     888 888   d88P 888   d88P   888   ");
+Sleep(104); printf ("\n							    *Y88b. 888     888 8888888P*  8888888P*    888   ");
+Sleep(105); printf ("\n							      *888 888     888 888 T88b   888 T88b     888   ");
+Sleep(106); printf ("\n							Y88b  d88P Y88b. .d88P 888  T88b  888  T88b    888   ");
+Sleep(107); printf ("\n							 *Y8888P*   *Y88888P*  888   T88b 888   T88b 8888888 ");
+
+printf ("\n\n");
+
+printf ("\n							          :shmNMMNmhs+-     -/osyyyso+:.          ");
+printf ("\n							       .sNNy+-.``.-/ohNMhosNNhso+++osymMNy/`      ");
+printf ("\n							     `yMm/             .+hMMs.         `:sNNs`    ");
+printf ("\n							    /NN+                  `+dMd+`         `+NN-   ");
+printf ("\n							   +Mm.                      .omd           -NN-  ");
+printf ("\n							  :Mm`                                       +Mh  ");
+printf ("\n							  dM:                                        `MM  ");
+printf ("\n							 `MM`                                        `MM` ");
+printf ("\n							  NM.                                        :Mm  ");
+printf ("\n							  yMs                                        hM+  ");
+printf ("\n							  `mM/                                      +Md   ");
+printf ("\n							   .mMo                                    /Mm`   ");
+printf ("\n							    `sMm:                                `yMd`    ");
+printf ("\n							      .dMy                              :NN+      ");
+printf ("\n							        sMh                            :Mm.       ");
+printf ("\n							         dM+           `++-           `NM-        ");
+printf ("\n							         /Md          -NNdMs          +Mh         ");
+printf ("\n							         .MN          mM: mM-         dM/         ");
+printf ("\n							          MM`        :Md  hM+        .MN`         ");
+printf ("\n							          hM/        yMo  oMy        oMy          ");
+printf ("\n							          /Md       `NM.  :Mm       `NM-          ");
+printf ("\n							           mM:      +Mh    NM-      sMy           ");
+printf ("\n							           -NN-    `NM-    +Md`    +Mm`           ");
+printf ("\n							            -NMo-`-dMo      sMd/.-yMd`            ");
+printf ("\n							             `+hNMNh:        -sdNNh/              ");
+
+printf ("\n\n\n");
+
+Sleep(3000);
+system ("cls");
+
+printf ("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+Sleep(200);
+printf ("\n						#################################################################");
+printf ("\n						#                                                               #");
+printf ("\n						#      LOADING |NNNNNN                               | 10 %%     #");
+printf ("\n						#                                                               #");
+printf ("\n						#################################################################");
+Sleep(210);
+system ("cls");
+
+
+printf ("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+printf ("\n						#################################################################");
+printf ("\n						#                                                               #");
+printf ("\n						#      LOADING |NNNNNNNNNNNN                         | 20 %%     #");
+printf ("\n						#                                                               #");
+printf ("\n						#################################################################");
+Sleep(230);
+system ("cls");
+
+printf ("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+printf ("\n						#################################################################");
+printf ("\n						#                                                               #");
+printf ("\n						#      LOADING |NNNNNNNNNNNNNNNNNN                   | 40 %%     #");
+printf ("\n						#                                                               #");
+printf ("\n						#################################################################");
+Sleep(290);
+system ("cls");
+
+printf ("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+printf ("\n						#################################################################");
+printf ("\n						#                                                               #");
+printf ("\n						#      LOADING |NNNNNNNNNNNNNNNNNNNNNNNN             | 60 %%     #");
+printf ("\n						#                                                               #");
+printf ("\n						#################################################################");
+Sleep(340);
+system ("cls");
+
+printf ("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+printf ("\n						#################################################################");
+printf ("\n						#                                                               #");
+printf ("\n						#      LOADING |NNNNNNNNNNNNNNNNNNNNNNNNNNNNNN       | 80 %%     #");
+printf ("\n						#                                                               #");
+printf ("\n						#################################################################");
+Sleep(900);
+system ("cls");
+
+printf ("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+printf ("\n						#################################################################");
+printf ("\n						#                                                               #");
+printf ("\n						#      LOADING |NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN| 100 %%    #");
+printf ("\n						#                                                               #");
+printf ("\n						#################################################################");
+Sleep(1200);
+system ("cls");
+
+}
